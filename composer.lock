@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0e0db91caaa7d269d0efbae6ef3c7d28",
+    "content-hash": "7bafb0624862f71adb6a79576fa85055",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -10425,6 +10425,71 @@
                 }
             ],
             "time": "2021-10-21T17:48:40+00:00"
+        },
+        {
+            "name": "zenstruck/mailer-test",
+            "version": "v0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zenstruck/mailer-test.git",
+                "reference": "bedd52a0451477add615b6404ba91c50f46d6b38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zenstruck/mailer-test/zipball/bedd52a0451477add615b6404ba91c50f46d6b38",
+                "reference": "bedd52a0451477add615b6404ba91c50f46d6b38",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4",
+                "symfony/framework-bundle": "^4.4|^5.0",
+                "symfony/mailer": "^4.4|^5.0",
+                "symfony/polyfill-php80": "^1.23.1",
+                "zenstruck/assert": "^1.0",
+                "zenstruck/callback": "^1.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5.0",
+                "symfony/messenger": "^4.4|^5.0",
+                "symfony/phpunit-bridge": "^5.2",
+                "symfony/var-dumper": "^4.4|^5.0",
+                "symfony/yaml": "^4.4|^5.0",
+                "zenstruck/browser": "^1.0@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Zenstruck\\Mailer\\Test\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Bond",
+                    "email": "kevinbond@gmail.com"
+                }
+            ],
+            "description": "Alternative, opinionated helpers for testing emails sent with symfony/mailer.",
+            "homepage": "https://github.com/zenstruck/mailer-test",
+            "keywords": [
+                "mailer",
+                "symfony",
+                "test"
+            ],
+            "support": {
+                "issues": "https://github.com/zenstruck/mailer-test/issues",
+                "source": "https://github.com/zenstruck/mailer-test/tree/v0.4.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/kbond",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-10-21T19:05:49+00:00"
         }
     ],
     "aliases": [],

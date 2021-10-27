@@ -54,7 +54,8 @@
         "symfony/stopwatch": "5.3.*",
         "symfony/web-profiler-bundle": "5.3.*",
         "zenstruck/browser": "^0.8.0",
-        "zenstruck/foundry": "^1.13"
+        "zenstruck/foundry": "^1.13",
+        "zenstruck/mailer-test": "^0.4.0"
     },
     "config": {
         "optimize-autoloader": true,
